@@ -30,7 +30,7 @@ export default function Footer() {
         >
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
-            {["Home", "About", "Projects", "Services", "Contact"].map((link, i) => (
+            {["#", "About", "Projects", "Services", "Contact"].map((link, i) => (
               <li key={i}>
                 <a
                   href={`#${link.toLowerCase()}`}
@@ -53,7 +53,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
           <div className="flex space-x-6 text-2xl">
             <a
-              href="https://github.com/Monuashiq"
+              href="https://github.com/AshiqKakkat"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition transform hover:scale-110"
@@ -61,23 +61,16 @@ export default function Footer() {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ashiq-kakkat"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition transform hover:scale-110"
             >
               <FaLinkedin />
             </a>
+           
             <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-sky-400 transition transform hover:scale-110"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="mailto:ashiq@example.com"
+              href="mailto:ashiqkakkat01@gmail.com"
               className="hover:text-pink-400 transition transform hover:scale-110"
             >
               <FaEnvelope />
