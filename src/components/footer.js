@@ -30,13 +30,19 @@ export default function Footer() {
         >
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
-            {["Hero", "About", "Projects", "Services", "Contact"].map((link, i) => (
-              <li key={i}>
+            {[
+              { name: "Hero", id: "hero" },
+              { name: "About", id: "about" },
+              { name: "Projects", id: "projects" },
+              { name: "Services", id: "services" },
+              { name: "Contact", id: "contact" },
+            ].map((link) => (
+              <li key={link.id}>
                 <a
-                  href={`#${link.toLowerCase()}`}
+                  href={`#${link.id}`}
                   className="hover:text-blue-400 transition duration-300 relative group"
                 >
-                  {link}
+                  {link.name}
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all group-hover:w-full"></span>
                 </a>
               </li>
