@@ -29,7 +29,7 @@ export default function About() {
                         whileHover={{ scale: 1.05 }}
                         className="text-center cursor-pointer transition-transform flex-1"
                     >
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-green-600">456+</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-green-600">016+</h2>
                         <p className="text-gray-500 text-base md:text-lg">Projects Completed</p>
                     </motion.div>
 
@@ -41,7 +41,7 @@ export default function About() {
                         whileHover={{ scale: 1.05 }}
                         className="text-center cursor-pointer transition-transform flex-1"
                     >
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-purple-600">789+</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-purple-600">009+</h2>
                         <p className="text-gray-500 text-base md:text-lg">Awards Won</p>
                     </motion.div>
                 </div>
