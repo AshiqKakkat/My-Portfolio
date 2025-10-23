@@ -17,7 +17,7 @@ export default function About() {
                         whileHover={{ scale: 1.05 }}
                         className="text-center cursor-pointer transition-transform flex-1"
                     >
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600">124+</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600">024+</h2>
                         <p className="text-gray-500 text-base md:text-lg">Happy Clients</p>
                     </motion.div>
 

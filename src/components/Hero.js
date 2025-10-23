@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       className="h-screen flex flex-col items-center justify-center text-center bg-cover bg-center relative"
-      style={{ backgroundImage: "url('/ashikqk.jpg')" }} // 👈 background image
+      style={{ backgroundImage: "url('/portbanner1.jpg')" }} // 👈 background image
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/60"></div>
