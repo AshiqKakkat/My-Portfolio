@@ -31,7 +31,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
             {[
-              { name: "Hero", id: "hero" },
+              { name: "Hero", id: "" },
               { name: "About", id: "about" },
               { name: "Projects", id: "projects" },
               { name: "Services", id: "services" },
