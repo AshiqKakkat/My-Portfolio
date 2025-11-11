@@ -14,7 +14,7 @@ const Experience = () => {
         "Collaborating with the development team to deliver scalable and high-performance applications.",
         "Improving existing codebases, optimizing workflows, and ensuring high-quality software delivery.",
       ],
-      tech: ["React", "Node.js", "MongoDB", "Express"]
+      tech: ["React", "Node.js", "MongoDB", "Express","WordPress", "Shopify", "Liquid" ]
     },
     {
       period: "05/2025 – 09/2025",
