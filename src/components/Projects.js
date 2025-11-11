@@ -72,7 +72,6 @@ export default function Projects() {
       id="projects"
       className="min-h-screen flex items-center justify-center bg-black text-green-400 relative overflow-hidden py-24"
     >
-      {/* Matrix-style background effect */}
       <div className="absolute inset-0 opacity-5">
         {[...Array(20)].map((_, i) => (
           <div
@@ -89,14 +88,11 @@ export default function Projects() {
         ))}
       </div>
 
-      {/* Scanline effect */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-green-500/5 to-transparent animate-pulse pointer-events-none"></div>
 
-      {/* Grid overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,0,0.03)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
 
       <div className="max-w-7xl mx-auto px-6 z-10">
-        {/* Terminal Header */}
         <motion.div
           className="bg-gray-900 border-2 border-green-500 rounded-t-lg p-4 mb-8 font-mono"
           initial={{ opacity: 0, y: -20 }}
@@ -116,7 +112,6 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        {/* Title */}
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0 }}
@@ -136,7 +131,6 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p, i) => (
             <motion.div
@@ -151,14 +145,12 @@ export default function Projects() {
                 setTerminalText("$ _");
               }}
             >
-              {/* Terminal-style card */}
               <a
                 href={p.link}
                 target="_blank"
                 rel="noreferrer"
                 className="block bg-gray-900 border-2 border-green-500/30 hover:border-green-500 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,255,0,0.3)] hover:-translate-y-1"
               >
-                {/* Terminal header */}
                 <div className="bg-gray-800 border-b border-green-500/30 p-2 flex items-center gap-2">
                   <div className="flex gap-1.5">
                     <div className="w-2.5 h-2.5 rounded-full bg-red-500"></div>
@@ -179,14 +171,12 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Image container with overlay */}
                 <div className="relative h-48 overflow-hidden bg-black">
                   <img
                     src={p.image}
                     alt={p.title}
                     className="w-full h-full object-cover opacity-70 group-hover:opacity-40 group-hover:scale-110 transition-all duration-500"
                   />
-                  {/* Code overlay */}
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 font-mono text-xs text-green-400 overflow-hidden">
                     <div className="animate-pulse">
                       <div>{"{"}</div>
@@ -199,7 +189,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Content */}
                 <div className="p-4 bg-gray-900">
                   <h3 className="text-xl font-bold text-green-400 mb-2 font-mono">
                     {"> "}{p.title}
@@ -208,7 +197,6 @@ export default function Projects() {
                     // {p.description}
                   </p>
                   
-                  {/* Tech stack */}
                   <div className="flex flex-wrap gap-2">
                     {p.tech.map((tech, idx) => (
                       <span
@@ -221,11 +209,9 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Bottom accent */}
                 <div className="h-1 bg-gradient-to-r from-green-500 via-blue-500 to-green-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </a>
 
-              {/* Glitch effect on hover */}
               {hoveredIndex === i && (
                 <div className="absolute -inset-0.5 bg-green-500/20 blur-sm -z-10 animate-pulse"></div>
               )}
@@ -233,7 +219,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Bottom terminal footer */}
         <motion.div
           className="mt-12 bg-gray-900 border-2 border-green-500 rounded-lg p-4 font-mono text-sm"
           initial={{ opacity: 0 }}
