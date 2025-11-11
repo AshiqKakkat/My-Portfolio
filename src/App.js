@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Services from "./components/services";
 import Footer from "./components/footer";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="bg-gray-900 text-white min-h-screen font-sans">
       <Hero />
       <About />
+      <Experience />
       <Projects /> 
       <Services />
       <Skills />
