@@ -2,11 +2,9 @@ import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
   const formRef = useRef();
-  const recaptchaRef = useRef();
 
   const [loading, setLoading] = useState(false);
   const [messageStatus, setMessageStatus] = useState(""); // "success" or "error"
@@ -14,29 +12,21 @@ export default function Contact() {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    // Validate reCAPTCHA
-    const recaptchaValue = recaptchaRef.current.getValue();
-    if (!recaptchaValue) {
-      setMessageStatus("error");
-      return;
-    }
-
     setLoading(true);
     setMessageStatus("");
 
     emailjs
       .sendForm(
-        "service_abcd123",      // Your Service ID
-        "template_contactus",    // Your Template ID
+        "service_031jigp",      // Your Service ID
+        "template_9tx9hjn",     // Your Template ID
         formRef.current,
-        "o9Fxxxxxxxxxxxx"       // Your Public Key
+        "gQt7tlbUno0UfRMlb"     // Your Public Key
       )
       .then(
         () => {
           setLoading(false);
           setMessageStatus("success");
           formRef.current.reset();
-          recaptchaRef.current.reset();
         },
         (error) => {
           console.error(error);
@@ -51,9 +41,9 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-start">
         {/* Left side - Contact Form */}
         <div className="bg-gray-900 p-8 rounded-2xl shadow-lg">
-          <h2 className="text-3xl font-bold mb-4">Let’s Talk</h2>
+          <h2 className="text-3xl font-bold mb-4">Let's Talk</h2>
           <p className="text-gray-400 mb-6">
-            Drop me a message and I’ll get back to you soon.
+            Drop me a message and I'll get back to you soon.
           </p>
 
           <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-4">
@@ -78,12 +68,6 @@ export default function Contact() {
               required
               className="p-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
             ></textarea>
-
-            {/* reCAPTCHA */}
-            <ReCAPTCHA
-              sitekey="YOUR_RECAPTCHA_SITE_KEY" // Replace with your site key
-              ref={recaptchaRef}
-            />
 
             <button
               type="submit"
@@ -125,7 +109,7 @@ export default function Contact() {
             )}
             {messageStatus === "error" && (
               <p className="text-red-400 font-semibold mt-2">
-                Failed to send message. Please check reCAPTCHA and try again.
+                Failed to send message. Please try again.
               </p>
             )}
           </form>
