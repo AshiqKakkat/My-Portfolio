@@ -8,21 +8,19 @@ export default function Footer() {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
 
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
-        
-        {/* About Me */}
+        {/* About Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h2 className="text-2xl font-bold text-white mb-4">Ashiq Monu</h2>
-          <p className="text-sm leading-relaxed text-gray-400">
-            🚀 Web Developer passionate about crafting modern, responsive, and
-            creative web experiences that leave an impact.
+          <h2 className="text-2xl font-bold text-white mb-4">Ashiq Kakkat</h2>
+          <p className="text-sm text-gray-400">
+            Experienced Web Developer focused on building modern, responsive, and impactful web solutions.
           </p>
         </motion.div>
 
-        {/* Quick Links */}
+        {/* Navigation Links */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +29,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
             {[
-              { name: "Hero", id: "" },
+              { name: "Home", id: "" },
               { name: "About", id: "about" },
               { name: "Projects", id: "projects" },
               { name: "Services", id: "services" },
@@ -50,7 +48,7 @@ export default function Footer() {
           </ul>
         </motion.div>
 
-        {/* Socials */}
+        {/* Social Media */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -61,7 +59,8 @@ export default function Footer() {
             <a
               href="https://github.com/AshiqKakkat"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
               className="hover:text-white transition transform hover:scale-110"
             >
               <FaGithub />
@@ -69,14 +68,15 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/ashiq-kakkat"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
               className="hover:text-blue-400 transition transform hover:scale-110"
             >
               <FaLinkedin />
             </a>
-           
             <a
               href="mailto:ashiqkakkat01@gmail.com"
+              aria-label="Email"
               className="hover:text-pink-400 transition transform hover:scale-110"
             >
               <FaEnvelope />
@@ -85,9 +85,9 @@ export default function Footer() {
         </motion.div>
       </div>
 
-      {/* Bottom */}
+      {/* Footer Bottom */}
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} <span className="text-white font-semibold">Ashiq Monu</span> | Crafted with ❤️ & React
+        © {new Date().getFullYear()} <span className="text-white font-semibold">Ashiq Kakkat</span> | Built with React
       </div>
     </footer>
   );

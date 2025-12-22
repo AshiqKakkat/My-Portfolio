@@ -4,11 +4,11 @@ export default function Hero() {
   return (
     <section
       className="h-screen flex flex-col items-center justify-center text-center bg-cover bg-center relative"
-      style={{ backgroundImage: "url('/portbanner1.jpg')" }} // 👈 background image
+      style={{ backgroundImage: "url('/portbanner1.jpg')" }}
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/60"></div>
-
+      
       {/* Content */}
       <div className="relative z-10">
         <motion.h1
@@ -17,9 +17,14 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-5xl font-bold text-white"
         >
-          Hi, I’m <span className="text-blue-400">Ashiq</span> 🚀
+          {(() => {
+            const hour = new Date().getHours();
+            if (hour < 12) return "Good Morning,";
+            if (hour < 18) return "Good Afternoon,";
+            return "Good Evening,";
+          })()} I'm <span className="text-blue-400">Ashiq Kakkat</span> 
         </motion.h1>
-
+        
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -28,7 +33,7 @@ export default function Hero() {
         >
           Web Developer | React | Node.js | MERN Stack
         </motion.p>
-
+        
         <motion.a
           href="#projects"
           whileHover={{ scale: 1.1 }}
