@@ -153,7 +153,7 @@ export default function About() {
               </div>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  <span className="text-cyan-400 font-semibold">Hi, I'm Ashiq 👋</span>
+                  <span className="text-cyan-400 font-semibold">Hi, I'm Ashiq </span>
                 </p>
                 <p>
                   Passionate <span className="text-blue-400 font-semibold">MERN Stack & Web Developer</span> with hands-on experience building secure, scalable, and user-focused applications. Skilled in JavaScript, React, Node.js, and MongoDB, with strong expertise in RESTful APIs and cloud platforms. Experienced in fully custom WordPress development and Shopify theme & app customization using Shopify CLI, delivering high-performance solutions through end-to-end coding.
@@ -162,7 +162,7 @@ export default function About() {
                   Also experienced in <span className="text-purple-400 font-semibold">WordPress and Shopify development</span>, enabling businesses with modern e-commerce solutions. Adept at working in Agile teams and delivering clean, efficient code.
                 </p>
                 <p className="text-green-400 font-mono text-sm">
-                  → Seeking opportunities to contribute to innovative digital solutions 🚀
+                  → Seeking opportunities to contribute to innovative digital solutions 
                 </p>
               </div>
             </div>
