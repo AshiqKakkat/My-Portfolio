@@ -119,7 +119,7 @@ export default function Contact() {
         <div className="relative flex justify-center items-center">
           <div className="absolute -z-10 w-72 h-72 bg-yellow-400 rounded-full blur-3xl opacity-40"></div>
           <img
-            src="/ashiqcontact.png"
+            src="/ashiq-contact.jpeg"
             alt="Contact"
             className="rounded-2xl shadow-lg object-cover w-full max-w-sm"
           />

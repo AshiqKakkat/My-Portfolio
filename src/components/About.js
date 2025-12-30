@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ashikqk from "../assets/ashikqk.jpg";
+import ashikqk from "../assets/ashiqk.jpeg";
 
 export default function About() {
   const [hoveredStat, setHoveredStat] = useState(null);
