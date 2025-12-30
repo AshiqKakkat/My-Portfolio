@@ -12,7 +12,8 @@ export default function About() {
 
   const skills = [
     "JavaScript", "React", "Node.js", "MongoDB", "Express",
-    "WordPress", "Shopify", "AWS", "Azure", "GCP", "REST APIs"
+    "WordPress", "Shopify", "GCP", "REST APIs", "PHP",
+    "HTML5", "CSS3", "Tailwind CSS", "Git", 
   ];
 
   // SVG Icons
@@ -128,7 +129,7 @@ export default function About() {
                 </div>
                 <div className="flex">
                   <span className="text-purple-400 mr-2">"role":</span>
-                  <span className="text-green-400">"MERN Stack Developer"</span>
+                  <span className="text-green-400">"Web Developer"</span>
                 </div>
                 <div className="flex">
                   <span className="text-purple-400 mr-2">"location":</span>
@@ -155,7 +156,7 @@ export default function About() {
                   <span className="text-cyan-400 font-semibold">Hi, I'm Ashiq 👋</span>
                 </p>
                 <p>
-                  Passionate <span className="text-blue-400 font-semibold">MERN Stack & Web Developer</span> with hands-on experience building secure, scalable, and user-focused applications. Skilled in JavaScript, React, Node.js, and MongoDB with strong knowledge of RESTful APIs and cloud platforms.
+                  Passionate <span className="text-blue-400 font-semibold">MERN Stack & Web Developer</span> with hands-on experience building secure, scalable, and user-focused applications. Skilled in JavaScript, React, Node.js, and MongoDB, with strong expertise in RESTful APIs and cloud platforms. Experienced in fully custom WordPress development and Shopify theme & app customization using Shopify CLI, delivering high-performance solutions through end-to-end coding.
                 </p>
                 <p>
                   Also experienced in <span className="text-purple-400 font-semibold">WordPress and Shopify development</span>, enabling businesses with modern e-commerce solutions. Adept at working in Agile teams and delivering clean, efficient code.

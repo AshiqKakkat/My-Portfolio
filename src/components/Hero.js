@@ -26,7 +26,7 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="mt-4 text-xl text-gray-200"
         >
-          Web Developer | React | Node.js | MERN Stack
+          Web Developer | SHOPIFY | PHP | MERN Stack | WORDPRESS
         </motion.p>
 
         <motion.a
