@@ -17,10 +17,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_031jigp",      // Your Service ID
+        "service_y20fc23",      // Your Service ID
         "template_9tx9hjn",     // Your Template ID
         formRef.current,
-        "gQt7tlbUno0UfRMlb"     // Your Public Key
+        "bwOzJi1WGMv6ydkNt"     // Your Public Key
       )
       .then(
         () => {
@@ -72,9 +72,8 @@ export default function Contact() {
             <button
               type="submit"
               disabled={loading}
-              className={`bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition flex items-center justify-center ${
-                loading ? "opacity-70 cursor-not-allowed" : ""
-              }`}
+              className={`bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition flex items-center justify-center ${loading ? "opacity-70 cursor-not-allowed" : ""
+                }`}
             >
               {loading ? (
                 <svg
