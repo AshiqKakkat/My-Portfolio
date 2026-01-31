@@ -124,10 +124,10 @@ export default function Projects() {
             <span className="text-gray-500">{" />"}</span>
           </h2>
           <div className="text-gray-400 font-mono text-sm mb-4">
-            // {terminalText}
+            {"//"} {terminalText}
           </div>
           <p className="text-gray-500 text-sm max-w-2xl mx-auto font-mono">
-            /* Building scalable solutions with modern tech stacks */
+            {"/* Building scalable solutions with modern tech stacks */"}
           </p>
         </motion.div>
 
@@ -161,11 +161,10 @@ export default function Projects() {
                     {p.title.toLowerCase().replace(/\s+/g, "_")}.exe
                   </span>
                   <div className="ml-auto">
-                    <span className={`text-xs px-2 py-0.5 rounded ${
-                      p.status === "deployed" || p.status === "live" 
-                        ? "bg-green-500/20 text-green-400" 
-                        : "bg-blue-500/20 text-blue-400"
-                    }`}>
+                    <span className={`text-xs px-2 py-0.5 rounded ${p.status === "deployed" || p.status === "live"
+                      ? "bg-green-500/20 text-green-400"
+                      : "bg-blue-500/20 text-blue-400"
+                      }`}>
                       {p.status}
                     </span>
                   </div>
@@ -194,9 +193,9 @@ export default function Projects() {
                     {"> "}{p.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-3 font-mono leading-relaxed">
-                    // {p.description}
+                    {"//"} {p.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2">
                     {p.tech.map((tech, idx) => (
                       <span
@@ -230,7 +229,7 @@ export default function Projects() {
             <span className="text-yellow-400">{projects.length}</span>
           </div>
           <div className="text-gray-500 text-xs mt-1">
-            // End of project listing. Press Ctrl+C to exit.
+            {"//"} End of project listing. Press Ctrl+C to exit.
           </div>
         </motion.div>
       </div>
