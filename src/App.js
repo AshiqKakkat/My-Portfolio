@@ -4,8 +4,8 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Services from "./components/services";
-import Footer from "./components/footer";
+import Services from "./components/Services";
+import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 
@@ -17,11 +17,11 @@ function App() {
       <Hero />
       <About />
       <Experience />
-      <Projects /> 
+      <Projects />
       <Services />
       <Skills />
       <Contact />
-     < Footer/>
+      < Footer />
 
     </div>
   );
