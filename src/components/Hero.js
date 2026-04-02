@@ -15,32 +15,49 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-5xl font-bold text-white"
+          className="text-5xl md:text-7xl font-bold text-white uppercase tracking-tighter"
         >
           {(() => {
             const hour = new Date().getHours();
             if (hour < 12) return "Good Morning,";
             if (hour < 18) return "Good Afternoon,";
             return "Good Evening,";
-          })()} I'm <span className="text-blue-400">Ashiq Kakkat</span> 
+          })()} I'm <br />
+          <span className="text-blue-400">Mohammed Ashiq K</span> 
         </motion.h1>
         
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="mt-4 text-xl text-gray-200"
+          className="mt-4 text-xl text-gray-200 font-mono tracking-widest"
         >
           Web Developer | SHOPIFY | PHP | MERN Stack | WORDPRESS
         </motion.p>
         
-        <motion.a
-          href="#projects"
-          whileHover={{ scale: 1.1 }}
-          className="mt-6 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition"
-        >
-          View My Work
-        </motion.a>
+        <div className="mt-10 flex flex-wrap justify-center gap-6">
+          <motion.a
+            href="#projects"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-8 py-4 bg-blue-500 text-white rounded-full font-bold shadow-xl hover:bg-blue-600 transition-all"
+          >
+            View My Work
+          </motion.a>
+          
+          <motion.a
+            href="/resume.pdf"
+            download
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-full font-bold hover:bg-white/20 transition-all flex items-center gap-2"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Download CV
+          </motion.a>
+        </div>
       </div>
     </section>
   );
