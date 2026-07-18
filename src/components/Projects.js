@@ -3,6 +3,24 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "DoShopy",
+    link: "https://doshopy.com",
+    image: "/doshopy.png",
+    description:
+      "A multi-tenant Shopify intelligence SaaS platform enabling merchants and agencies to manage multiple stores, monitor health audits, import products in bulk, and access subscription billing.",
+    tech: ["Laravel", "React", "TypeScript", "Shopify API", "Stripe", "Inertia.js", "Tailwind CSS"],
+    status: "live",
+  },
+  {
+    title: "Zuboc",
+    link: "https://zuboc.com",
+    image: "/zuboc.png",
+    description:
+      "Rebuilt the Zuboc custom craft e-commerce storefront (envelopes, mugs, stamps, and frames) from scratch to replace app dependencies with native Shopify OS 2.0 liquid logic, metaobjects, and metafields.",
+    tech: ["Shopify", "Liquid", "Tailwind CSS", "JavaScript", "Metaobjects", "Metafields", "Shopify CLI"],
+    status: "live",
+  },
+  {
     title: "Thottathil Silks",
     link: "https://thottathilsilks.com",
     image: "/thottathil_silks.png",
@@ -18,6 +36,15 @@ const projects = [
     description:
       "Developed a custom Shopify e-commerce website for a premium watchmaking brand from scratch, including custom theme structure, responsive UI, dynamic Liquid components, and Lenis.js smooth scrolling.",
     tech: ["Shopify", "Liquid", "Tailwind CSS", "Lenis.js", "JavaScript"],
+    status: "live",
+  },
+  {
+    title: "Zircon Concepts",
+    link: "https://zircontrading.ae",
+    image: "/zircon_concepts.png",
+    description:
+      "Customized and enhanced an existing Shopify theme for a UAE-based e-commerce store specializing in premium sanitaryware and bathroom solutions, implementing new features, responsive layouts, and customizable theme settings.",
+    tech: ["Shopify", "Liquid", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "Shopify CLI"],
     status: "live",
   },
   {
