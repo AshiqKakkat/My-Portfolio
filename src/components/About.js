@@ -11,9 +11,9 @@ export default function About() {
   ];
 
   const skills = [
-    "JavaScript", "React", "Node.js", "MongoDB", "Express",
-    "WordPress", "Shopify", "GCP", "REST APIs", "PHP",
-    "HTML5", "CSS3", "Tailwind CSS", "Git", 
+    "HTML", "CSS", "JavaScript", "PHP", "WordPress", "Shopify",
+    "React", "Node.js", "Express.js", "MongoDB", "Three.js",
+    "Bootstrap", "Tailwind CSS", "Git", "Postman", "AWS", "Azure", "GCP"
   ];
 
   // SVG Icons
@@ -156,13 +156,13 @@ export default function About() {
                   <span className="text-cyan-400 font-semibold">Hi, I'm Ashiq </span>
                 </p>
                 <p>
-                  Passionate <span className="text-blue-400 font-semibold">MERN Stack & Web Developer</span> with hands-on experience building secure, scalable, and user-focused applications. Skilled in JavaScript, React, Node.js, and MongoDB, with strong expertise in RESTful APIs and cloud platforms. Experienced in fully custom WordPress development and Shopify theme & app customization using Shopify CLI, delivering high-performance solutions through end-to-end coding.
+                  Passionate <span className="text-blue-400 font-semibold">MERN Stack & Web Developer</span> with hands-on experience building secure, scalable, and user-focused applications. Skilled in JavaScript, React, Node.js, and MongoDB with strong knowledge of RESTful APIs and cloud platforms (AWS, Azure, GCP).
                 </p>
                 <p>
-                  Also experienced in <span className="text-purple-400 font-semibold">WordPress and Shopify development</span>, enabling businesses with modern e-commerce solutions. Adept at working in Agile teams and delivering clean, efficient code.
+                  Also experienced in <span className="text-purple-400 font-semibold">WordPress and Shopify development</span>, enabling businesses to build modern e-commerce solutions. Adept at working in Agile teams and delivering clean, efficient code.
                 </p>
                 <p className="text-green-400 font-mono text-sm">
-                  → Seeking opportunities to contribute to innovative digital solutions 
+                  → Seeking opportunities to contribute to innovative digital solutions.
                 </p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function About() {
             {/* Download CV Button */}
             <div className="flex gap-4">
               <a
-                href="/Ashiq_CV.pdf"
+                href="/MOHAMMED_ASHIQ_K.pdf"
                 download
                 className="relative group flex-1"
               >

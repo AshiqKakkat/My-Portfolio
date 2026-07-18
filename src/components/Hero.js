@@ -15,7 +15,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-5xl md:text-7xl font-bold text-white uppercase tracking-tighter"
+          className="text-5xl md:text-7xl font-bold text-white tracking-tighter"
         >
           {(() => {
             const hour = new Date().getHours();
@@ -32,7 +32,7 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="mt-4 text-xl text-gray-200 font-mono tracking-widest"
         >
-          Web Developer | SHOPIFY | PHP | MERN Stack | WORDPRESS
+          Software Engineer | MERN Stack & Web Developer
         </motion.p>
         
         <div className="mt-10 flex flex-wrap justify-center gap-6">
@@ -46,7 +46,7 @@ export default function Hero() {
           </motion.a>
           
           <motion.a
-            href="/resume.pdf"
+            href="/MOHAMMED_ASHIQ_K.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

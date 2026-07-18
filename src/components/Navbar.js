@@ -127,7 +127,7 @@ const Navbar = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg blur-sm group-hover:blur-md transition-all"></div>
               <div className="relative px-6 py-2 bg-slate-950 rounded-lg border border-cyan-500/50 group-hover:border-cyan-400 transition-all">
                  <a
-                            href="/Ashiq_CV.pdf"
+                            href="/MOHAMMED_ASHIQ_K.pdf"
                             download
                             className="inline-block px-8 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:scale-105 transition-transform duration-300"
                         > <span className="text-cyan-400 font-mono text-sm">Resume</span>  
@@ -195,7 +195,7 @@ const Navbar = () => {
                 <div className="relative px-6 py-3 bg-slate-950 rounded-lg border border-cyan-500/50 text-center">
                   
                    <a
-                            href="/Ashiq_CV.pdf"
+                            href="/MOHAMMED_ASHIQ_K.pdf"
                             download
                             className="inline-block px-8 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:scale-105 transition-transform duration-300"
                         ><span className="text-cyan-400 font-mono text-sm">Download Resume</span>

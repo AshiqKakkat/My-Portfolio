@@ -5,43 +5,45 @@ const Experience = () => {
 
   const experiences = [
     {
-      period: "Present",
+      period: "09/2025 – Present",
       location: "Calicut, Kerala",
-      role: "Junior Software Engineer",
+      role: "Software Engineer",
       company: "Codenex Solutions Pvt LLP",
       details: [
-        "Currently working as a Junior Software Engineer, contributing to full-stack projects using modern web technologies.",
-        "Collaborating with the development team to deliver scalable and high-performance applications.",
-        "Improving existing codebases, optimizing workflows, and ensuring high-quality software delivery.",
+        "Developed Shopify and WordPress websites from scratch, including custom theme development and advanced UI implementation.",
+        "Built and customized Shopify themes using Liquid, HTML, CSS, and JavaScript to create responsive e-commerce experiences.",
+        "Implemented WordPress theme and plugin customization using PHP, delivering scalable and maintainable solutions.",
+        "Developed full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and integrated third-party APIs and payment gateways.",
+        "Managed source code using Git, collaborated with teams, and optimized website performance and Core Web Vitals.",
       ],
-      tech: ["React", "Node.js", "MongoDB", "Express","WordPress", "Shopify", "Liquid", "PHP", "JavaScript","tailwind CSS" ]
+      tech: ["React", "Node.js", "MongoDB", "Express", "WordPress", "Shopify", "Liquid", "PHP", "JavaScript", "Tailwind CSS", "Git"]
     },
     {
-      period: "05/2025 – 09/2025",
+      period: "06/2025 – 09/2025",
       location: "Kochi, Kerala",
       role: "Web Developer",
       company: "Addax Digital",
       details: [
-        "Designed and built many custom websites using WordPress and Shopify, focusing on clean design, fast performance, and mobile responsiveness.",
+        "Designed and built multiple custom websites using WordPress and Shopify, focusing on clean design, fast performance, and mobile responsiveness.",
         "Created and customized themes using HTML, CSS, JavaScript, and Liquid to align with each client's brand and business goals.",
-        "Developed eCommerce sites for small businesses and dropshipping stores, including automated product sourcing and order fulfillment.",
+        "Developed numerous eCommerce websites for small businesses and dropshipping stores, including automated product sourcing and order fulfillment.",
         "Integrated third-party tools, plugins, and payment gateways to enhance site functionality and improve user experience.",
         "Optimized websites for SEO, loading speed, and accessibility, boosting client visibility and engagement.",
       ],
-      tech: ["WordPress", "Shopify", "Liquid", "JavaScript"]
+      tech: ["WordPress", "Shopify", "Liquid", "JavaScript", "HTML", "CSS", "SEO"]
     },
     {
-      period: "08/2024 – 04/2025",
+      period: "08/2024 – 01/2025",
       location: "Calicut, Kerala",
       role: "MERN Stack Developer Intern",
       company: "Techolas Technologies Pvt Ltd",
       details: [
-        "Built full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js) to handle real-world business needs and high-traffic environments.",
-        "Developed rich front-end interfaces with React and Redux, ensuring seamless user experiences and responsive design across devices.",
-        "Created a custom UI component library that reduced development time by 15% and improved code consistency and reusability.",
-        "Optimized back-end performance through MongoDB query optimization and implemented caching strategies to support large user loads.",
+        "Built several full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js), designed to handle real-world business needs and high-traffic environments.",
+        "Developed rich front-end interfaces with React and Redux, ensuring a seamless user experiences and responsive design across devices.",
+        "Created a custom UI component library from scratch, which reduced development time on new projects by 15% and improved code consistency and reusability across the team.",
+        "Optimized back-end performance through advanced MongoDB query optimization and implemented caching strategies to support large user loads without slowdowns.",
       ],
-      tech: ["MongoDB", "Express", "React", "Node.js", "Redux"]
+      tech: ["MongoDB", "Express", "React", "Node.js", "Redux", "Git"]
     },
   ];
 

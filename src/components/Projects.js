@@ -3,6 +3,33 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "Thottathil Silks",
+    link: "https://thottathilsilks.com",
+    image: "/thottathil_silks.png",
+    description:
+      "A fully custom Shopify e-commerce website built from the ground up using Shopify Liquid and Tailwind CSS, focusing on performance, scalability, responsive design, and an intuitive shopping experience.",
+    tech: ["Shopify", "Liquid", "Tailwind CSS", "JavaScript", "Shopify CLI"],
+    status: "live",
+  },
+  {
+    title: "Tornado Store",
+    link: "https://tornado.store",
+    image: "/tornado_store.png",
+    description:
+      "Developed a custom Shopify e-commerce website for a premium watchmaking brand from scratch, including custom theme structure, responsive UI, dynamic Liquid components, and Lenis.js smooth scrolling.",
+    tech: ["Shopify", "Liquid", "Tailwind CSS", "Lenis.js", "JavaScript"],
+    status: "live",
+  },
+  {
+    title: "Spick & Span",
+    link: "https://github.com/AshiqKakkat",
+    image: "/spick_span.png",
+    description:
+      "Developed a custom WordPress theme from scratch using PHP, Tailwind CSS, and JavaScript with dynamic templates and an NPM-based build workflow.",
+    tech: ["WordPress", "PHP", "Tailwind CSS", "JavaScript", "NPM"],
+    status: "live",
+  },
+  {
     title: "Taxi Kerala",
     link: "https://taxiskerala.com",
     image: "/logo taxikerala.png",
