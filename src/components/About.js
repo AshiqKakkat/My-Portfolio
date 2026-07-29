@@ -188,7 +188,7 @@ export default function About() {
             {/* Download CV Button */}
             <div className="flex gap-4">
               <a
-                href="/MOHAMMED_ASHIQ_K.pdf"
+                href="/Mohammed-ASQK.pdf"
                 download
                 className="relative group flex-1"
               >
